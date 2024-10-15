@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>connect4.game</groupId>
+    <groupId>org.example</groupId>
     <artifactId>Connect4</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -56,7 +56,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>connectfour.Connect4Game</mainClass>
+                            <mainClass>org.example.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -73,7 +73,7 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>connectfour.Connect4Game</mainClass>
+                            <mainClass>org.example.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
